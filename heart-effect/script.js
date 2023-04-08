@@ -195,7 +195,6 @@ function compileShader(shaderSource, shaderType){
   return shader;
 }
 
-//From https://codepen.io/jlfwong/pen/GqmroZ
 //Utility to complain loudly if we fail to find the attribute/uniform
 function getAttribLocation(program, name) {
   var attributeLocation = gl.getAttribLocation(program, name);
